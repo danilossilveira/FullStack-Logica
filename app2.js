@@ -1,13 +1,6 @@
-let temPao = prompt("Você tem pão em casa? Responda com sim ou não");
+let nomedeusuario =prompt ("Usuario");
+let IdadeDoUsuario =prompt ("idade");
 
-if (temPao === "sim") {
-    alert("Fazer sanduíche");
-} else {
-    alert("Fazer miojo");
-}
-
-
-
-
-
+if (IdadeDoUsuario <= "sim") {
+    alert("Pode tirar a habilitação");}
 
