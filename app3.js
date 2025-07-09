@@ -24,3 +24,6 @@ if (numeropositivo >= 0 )
     
  }
 
+let saldo = R$100;
+alert( "saldo disponível: " + saldo);
+//isso é um template string
