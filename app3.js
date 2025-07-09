@@ -1,58 +1,26 @@
-alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
+alert("Qual é o dia da semana?");
+let diaDaSemana = prompt("Dia da semana");
+if (diaDaSemana == "sabado" || diaDaSemana == "domingo")
+     {alert("bom fim de semana");
+    }else{(diaDaSemana = "Segunda" ||diaDaSemana == "terça" ||diaDaSemana == "quarta" || diaDaSemana == "quinta" ||diaDaSemana == "sexta");
+        alert("Boa semana");
+    }
 
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta"); alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
 
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta");alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
-
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta");alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
-
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta");alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
-
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta");alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
-
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta");alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
-
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta");alert("Faça seu login");
-let Usuario = prompt ("usuario");
-let senha = prompt ("senha");
-
-if (Usuario === "Danilo");
-else {alert ("Nome de usuario incorreto");}
-if (senha === "1234")Alert ("Acesso liberado");
-else {alert ("Senha incorreta");}}}}}}}
+alert ("O número é positivo ou negativo?");
+let numeropositivo =prompt ("Ponha o numero");
+if (numeropositivo >= 0 )
+{alert ("Este número é positivo");
+}else{(numeropositivo <=0 );
+    alert ("este número é negativo");
 }
+
+
+ alert("Quantos pontos você tem?");
+ let pontos =prompt("Quantos pontos?");
+ if (pontos >= 100){alert ("Parabéns, você venceu");
+
+ }else{(pontos < 100); alert ("Vish, você perdeu");
+    
+ }
+
