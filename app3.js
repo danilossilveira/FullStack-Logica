@@ -1,4 +1,4 @@
-alert("Qual é o dia da semana?");
+ /*alert("Qual é o dia da semana?");
 let diaDaSemana = prompt("Dia da semana");
 if (diaDaSemana == "sabado" || diaDaSemana == "domingo")
      {alert("bom fim de semana");
@@ -26,4 +26,9 @@ if (numeropositivo >= 0 )
 
 let saldo = R$100;
 alert( "saldo disponível: " + saldo);
-//isso é um template string
+//isso é um template string */
+
+
+let nome = prompt('Qual o seu nome?');
+alert(`Boas vindas ${nome}`);`
+`
