@@ -1,78 +1,17 @@
-alert("Faça seu login");
-let Usuario = prompt("usuario");
-let senha = prompt("senha");
+alert ("Faça login para acessar o site");
+let tentativasLogin = prompt("Nome de usuário");
+let tentativasSenha = prompt("Senha");
+let login = Danilo;
+let senha = "1234";
 
-if (Usuario === "Danilo") {
-    alert("acertou")
-} else { alert("Nome de usuario incorreto"); }
-if (senha === "1234") Alert("Acesso liberado");
-else {
-    alert("Senha incorreta"); alert("Faça seu login");
-    let Usuario = prompt("usuario");
-    let senha = prompt("senha");
-
-    if (Usuario === "Danilo");
-    else { alert("Nome de usuario incorreto"); }
-    if (senha === "1234") Alert("Acesso liberado");
-    else {
-        alert("Senha incorreta"); alert("Faça seu login");
-        let Usuario = prompt("usuario");
-        let senha = prompt("senha");
-
-        if (Usuario === "Danilo");
-        else { alert("Nome de usuario incorreto"); }
-        if (senha === "1234") Alert("Acesso liberado");
-        else {
-            alert("Senha incorreta"); alert("Faça seu login");
-            let Usuario = prompt("usuario");
-            let senha = prompt("senha");
-
-            if (Usuario === "Danilo");
-            else { alert("Nome de usuario incorreto"); }
-            if (senha === "1234") Alert("Acesso liberado");
-            else {
-                alert("Senha incorreta"); alert("Faça seu login");
-                let Usuario = prompt("usuario");
-                let senha = prompt("senha");
-
-                if (Usuario === "Danilo");
-                else { alert("Nome de usuario incorreto"); }
-                if (senha === "1234") Alert("Acesso liberado");
-                else {
-                    alert("Senha incorreta"); alert("Faça seu login");
-                    let Usuario = prompt("usuario");
-                    let senha = prompt("senha");
-
-                    if (Usuario === "Danilo");
-                    else { alert("Nome de usuario incorreto"); }
-                    if (senha === "1234") Alert("Acesso liberado");
-                    else {
-                        alert("Senha incorreta"); alert("Faça seu login");
-                        let Usuario = prompt("usuario");
-                        let senha = prompt("senha");
-
-                        if (Usuario === "Danilo");
-                        else { alert("Nome de usuario incorreto"); }
-                        if (senha === "1234") Alert("Acesso liberado");
-                        else {
-                            alert("Senha incorreta"); alert("Faça seu login");
-                            let Usuario = prompt("usuario");
-                            let senha = prompt("senha");
-
-                            if (Usuario === "Danilo");
-                            else { alert("Nome de usuario incorreto"); }
-                            if (senha === "1234") Alert("Acesso liberado");
-                            else { alert("Senha incorreta"); }
-                        }
-                    }
-                }
-            }
-        }
-    }
+if (tentativasLogin === login) {
+    alert (`Acesso liberado, seja bem vindo, ${login}`);
+} else{
+  alert(`Acesso negado, o usuário ${tentativasLogin} não existe`);
 }
 
-
-
-
-
-
+if (tentativasSenha === senha ) {
+    alert ("Acesso liberado, seja bem vindo");
+} else{
+  alert(`Acesso negado, o usuário ${tentativasLogin} não existe`);
+}
