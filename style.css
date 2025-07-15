@@ -40,7 +40,12 @@ body::before {
     position: relative;
 }
 
-.container__conteudo {
+.container img{
+    height: 15em;
+    width: 15em;
+}
+
+.container {
     display: flex;
     align-items: center;
     position: absolute;
